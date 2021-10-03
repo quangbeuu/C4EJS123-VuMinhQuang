@@ -1,0 +1,58 @@
+I. Study: 
+
+1. What are var and const in JavaScript?
+
+- var là một biến có phạm vi cục bộ hoặc toàn cục
+    + var có phạm vi toàn cục khi được khai báo bên ngoài
+    một hàm
+    + var có phạm vi cục bộ khi được khai báo trong một 
+    hàm (và nó chỉ có thể được sử dụng trong hàm)
+
+    (var được khai báo sẽ được được đưa lên đầu và khởi
+    tạo undefined)
+
+- let là một biến có phạm vi khối (khối là một đoạn mã 
+được giới hạn bởi {})
+    + Một biến được khai báo trong một khối let chỉ có thẻ
+    sử dụng trong khối đó.
+
+    + let có thể cập nhật nhưng ko dc khai báo lại
+    (tuy nhiên nếu cùng một biến nhưng ở các phạm vi khác
+    nhau sẽ ko bị lỗi)
+
+    (let sau khi khai báo cũng được đưa lên đầu nhưng 
+    không được khởi tạo j)
+
+- const cũng là một biến có phạm vi khối 
+    + const không thể được cập nhật hoặc khai báo lại 
+    (các const khai báo được đưa lên đầu nhưng không được 
+    khởi tạo)
+
+
+2. What are the differences between let and var?
++ var khai báo phạm vi toàn cầu hoặc phạm vi cục bộ 
+trong khi let là phạm vi khối 
+
++ var có thể được cập nhật và khai báo lại trong phạm vi 
+của nó
+còn let có thể được cập nhật nhưng không được khai báo lại 
+
++ Cả let và var đều được kéo lên trên đỉnh phạm vi của nó, 
+nhưng var được khởi tạo undefined, let ko được khởi tạo.
+
+3. What are the differences between let and const?
+
++ let có thể được cập nhật nhưng không được khai báo lại
++ const không thể được cập nhật hoặc khai báo lại 
+
+4. What to use in what cases?
+
+II. Boolean:
+
+1. What is Boolean?
+- Boolean là 1 kiểu dữ liệu mà chỉ có 2 giá trị: true và 
+false
+
+2. What results in Boolean?
+- Boolean sẻ trả về 2 giá trị là true hoặc false
+
