@@ -1,0 +1,23 @@
+Câu 1: In JavaScript, in what cases, you will get the SyntaxError telling you that some of 
+your variables have invalid names? Can you give 3 different examples of invalid variable names?
+
+* Một số trường hợp tên biến lỗi: 
+
++ Tên biến bắt đầu bằng số
++ Tên biến có các ký tự đặc biệt (ngoại trừ "_" và "$")
++ Tên biến trùng với các từ khóa của Javascript 
+
+* 3 VD tên biến không hợp lệ: 
+Tên biến bắt đầu bằng số: 18internet
+Tên biến có các ký tự đặc biệt (ngoại trừ "_" và "$"): !music
+Tên biến trùng với các từ khóa của Javascript: null 
+
+Câu 2: In JavaScript, how to check a variable data types?
+
+Dùng hàm typeof() để kiểm tra kiểu dữ liệu của một dữ liệu 
+
+Câu 3: 
+1 - b 
+2 - a 
+3 - e 
+4 - c
