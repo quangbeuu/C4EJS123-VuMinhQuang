@@ -39,16 +39,16 @@ let list = [
 // Viết kịch bản để chọn ngẫu nhiên một bài kiểm tra từ danh sách trên, hiển thị chúng cho người dùng
 // Trả lời xem người dùng trả lời đúng hay sai
 
-// let ranNum = Math.floor(Math.random() * list.length)
-// while(true){
-//     let ansUser = prompt(`${list[ranNum].question} \n ${list[ranNum].answer}`);
-//     if(ansUser.toUpperCase() == list[ranNum].answerCorrect){
-//         alert("You are correct!");
-//         break;
-//     }else{
-//         alert("Oops. It's wrong. Please try again T-T");
-//     }
-// }
+let ranNum = Math.floor(Math.random() * list.length)
+while(true){
+    let ansUser = prompt(`${list[ranNum].question} \n ${list[ranNum].answer}`);
+    if(ansUser.toUpperCase() == list[ranNum].answerCorrect){
+        alert("You are correct!");
+        break;
+    }else{
+        alert("Oops. It's wrong. Please try again T-T");
+    }
+}
 
 
 // Bài 6 + 7: 
