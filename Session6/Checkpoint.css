@@ -1,0 +1,74 @@
+/* Câu 1 */
+/* Trong tệp HTML, hãy tạo 2 thẻ <p> với nội dung bạn chọn. Sử dụng CSS để thay đổi màu văn bản của các thẻ thành màu đỏ. */
+
+/* p{
+    color: red;
+} */
+
+
+/* Câu 2 */
+/* Trong tệp HTML, hãy tạo 2 thẻ <div> với nội dung bạn chọn. Sử dụng CSS để chỉ thay đổi màu nền của thẻ thứ hai thành # 00FF00 */
+/* (ngoài cách đặt tên class ta có thể dùng CSS selector */
+
+/* div:nth-of-type(2){
+    color: #00FF00;
+} */
+
+/* Câu 3 */
+/* Trong tệp HTML, hãy tạo một thẻ <p>, một thẻ <h1> và một thẻ <h2> với nội dung tùy ý. Sử dụng CSS để thay đổi kích thước phông 
+chữ của thẻ <p> và thẻ <h2> thành 24px */
+
+/* p,h2{
+    font-size: 24px;
+} */
+
+/* Câu 4 */
+/* Cho đoạn mã sau: https://codepen.io/mindxvn/pen/gOYrWwr. Không thay đổi bất kỳ CSS nào và không thay đổi thuộc tính của CSS hiện tại, 
+hãy biến trang thành thế này */
+
+/* div{
+    font-size: 3em;
+    background: wheat
+} */
+
+/* Câu 5 */
+/* Cho đoạn mã sau: https://codepen.io/mindxvn/pen/XWrdRpx. Không thay đổi bất kỳ HTML nào, hãy biến trang thành thế này */
+#div1{
+    font-size: 18px;
+}
+#div2{
+    color: blue;
+}
+
+/* Câu 6 */
+/* Trong tệp HTML, thêm 2 thẻ <a> với các hrefs khác nhau, không có lớp, không có id. Một có target = "_ blank" và một thì không, 
+thay đổi văn bản của thẻ <a> có màu target = "_ blank" thành màu vàng */
+
+a[target='_blank']{
+    color: yellow;
+}
+
+/* Câu 7 */
+/* Trong tệp HTML, thêm thẻ <ul>, bên trong thẻ <ul> này thêm thẻ 3 <li>, thêm thẻ <ol>, bên trong thẻ <ol> này thêm thẻ 4 <li>. 
+Không thêm lớp hay id, hãy thay đổi độ đậm phông chữ của thẻ li bên trong ul thành chữ in đậm */
+
+ul > li{
+    font-weight: bold;
+}
+
+/* Câu 9 */
+/* Không thêm bất kỳ HTML nào, bên trong mỗi div.item, thay đổi kích thước phông chữ của span đầu tiên thành 18px, 
+thay đổi kiểu phông chữ của span thứ hai thành chữ nghiêng */
+
+/* Gợi ý: Có thể xếp tầng các bộ chọn con hoặc bộ chọn con trực tiếp. 
+Ví dụ: 
+ul li span {...} 
+ul> li> a {...} */
+
+.item > span{
+    font-size: 18px;
+}
+
+.item >div > span{
+    font-style: italic;
+}
