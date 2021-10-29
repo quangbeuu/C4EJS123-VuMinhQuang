@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #101b4b;
+    font-family: "Poppins",sans-serif;
+}
+
+.characters{
+    padding: 10px 50px 0 50px;
+}
+
+.characters__title{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.characters__input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.characters__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.characters__link{
+    width: calc((100%/2) - 2px);
+    text-decoration: none;
+    display: flex;
+    background-color: white;
+    width: 50%;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 0;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.characters__wrap{
+
+}
+.characters__image {
+    width: 100px;
+    height: 100px;
+}
+
+.characters__name,.characters__house{
+    color: #101b4b;
+}
